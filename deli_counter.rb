@@ -17,3 +17,10 @@ def take_a_number(line, new_person)
   line.push(new_person)
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
+
+def now_serving(katz_deli)
+  if katz_deli == 0
+    puts "There are no people in line"
+  else
+    puts "The line is currently #{katz_deli}"
+end
