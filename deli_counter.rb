@@ -23,4 +23,5 @@ def now_serving(katz_deli)
     puts "There are no people in line"
   else
     puts "The line is currently #{katz_deli}"
+  end
 end
